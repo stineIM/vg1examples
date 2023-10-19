@@ -17,12 +17,9 @@ console.log(text);
 
 result = number1 + 23; 
 
-
 result = "hei"; 
 
 result = 100; 
-
-
 
 /*
 text = "Resultatet blir: " + result;
@@ -34,3 +31,11 @@ alert("Hallo!");
 let firstName = prompt("Kva er navnet ditt?"); 
 header.innerText = "Velkommen, " + firstName; 
 */ 
+
+function buttonClick() {
+    document.getElementById("header").style.display = "none";
+}
+
+function showImage() {
+    document.getElementById("icecream").style.display = "block";
+}
