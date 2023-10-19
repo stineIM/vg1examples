@@ -1,0 +1,47 @@
+body {
+    background-color: lightskyblue;
+}
+
+h1 {
+    font-size: 40px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkslateblue; 
+}
+
+#image1 {
+    width: 400px;
+}
+
+#image2 {
+    border: 15px solid darkslateblue; 
+}
+
+.boxContainer {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.boxContainer h3 {
+    margin-bottom: 50px;
+}
+
+.funText {
+    background-color: darkslateblue;
+    border: 10px solid rgb(118, 109, 176); 
+    color: white;
+    padding: 50px;
+    box-shadow: 10px 10px 10px grey;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#htmlText {
+    color: yellow;
+    text-transform: uppercase;
+}
+
+#cssText {
+    color: orange;
+    text-transform: uppercase;
+}

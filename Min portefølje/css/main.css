@@ -10,11 +10,16 @@ img {
 
 .subjectContainer {
     display: grid; 
-    grid-template-columns: auto auto auto; 
+    grid-template-columns:auto auto auto ; 
 }
 
 .subjectBox {
     border: 2px solid green; 
+   
+}
+
+.center {
+    text-align: center;
 }
 
 #middlebox {
